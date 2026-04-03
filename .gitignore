@@ -1,0 +1,30 @@
+# ============================================================
+# .gitignore — root of AWS-microservices project
+# ============================================================
+
+# Secrets — NEVER commit
+.env
+
+# Maven build output
+**/target/
+
+# IDE / editor
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Compiled Java classes
+**/*.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+ext.py
+repo-content.txt
