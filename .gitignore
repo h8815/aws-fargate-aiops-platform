@@ -28,3 +28,4 @@ logs/
 
 ext.py
 repo-content.txt
+node_modules/
