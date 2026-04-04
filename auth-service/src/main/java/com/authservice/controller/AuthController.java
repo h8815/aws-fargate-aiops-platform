@@ -26,7 +26,7 @@ public class AuthController {
 
     @GetMapping("/health")
     public ResponseEntity<?> health() {
-        return ResponseEntity.ok(Map.of("status", "UP"));
+        return ResponseEntity.ok(Map.of("status", "UP - v2"));
     }
 
     @PostMapping("/register")
