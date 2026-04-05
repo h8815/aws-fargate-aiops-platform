@@ -33,3 +33,5 @@ jwt:
 
 cors:
   allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000}
+  allowed-origins-1: ${CORS_ALLOWED_ORIGINS_1:http://localhost:3000}
+  allowed-origins-2: ${CORS_ALLOWED_ORIGINS_2:https://app.cybrmoon.space}
