@@ -29,3 +29,20 @@ logs/
 ext.py
 repo-content.txt
 node_modules/
+test-gateway.ps1
+1.txt
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
